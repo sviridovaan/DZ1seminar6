@@ -17,7 +17,7 @@ Console.WriteLine("Количество введенных чисел: "+size);
 int result = 0;
 int[] arr2 = str.Split(',').Select(int.Parse).ToArray();
 
-    for (int index=0; index<size; index++)
+for (int index=0; index<size; index++)
 {
     if (arr2[index]>0)
     result++;
